@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <section class="top">
+            <p>This is not a real online service!
+            You know you need something like this in your life 
+            to realize your deepest dreams. Sign up now to get started.</p>
+            <p>You know you want to.</p>
+        </section>
+        
+        <section class="middle">
+            <p>Let's do this!</p>
+            <div class="bigBox">
+                <div class="container">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" name="" id="firstName" required>
+                </div>
+                <div class="container">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" name="" id="lastName" required>
+                </div>
+                <div class="container">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="" id="email" required>
+                </div>
+                <div class="container">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" name="" id="phone" placeholder="###-###-####" required 
+                    pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$">
+                </div>
+                <div class="container">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="" id="password" required>
+                </div>
+                <div class="container">
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" name="" id="confirmPassword" required>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <button>Create account</button>
+            <div>Already have an account? <a href="#">Log in</a></div>
+        </section>
+    </form>
+</body>
+</html>
