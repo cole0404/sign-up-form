@@ -56,9 +56,9 @@ input {
 }
 
 .bigBox {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em 5em;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px 100px;
 }
 
 button {
